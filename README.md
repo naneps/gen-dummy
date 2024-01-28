@@ -1,50 +1,61 @@
-# Vue 3 + Vite + Tailwind
-This is a template for creating a Vue 3 project with Vite and Tailwind CSS.
+# Gen Dummy
 
-## Versions
-| Vue | Vite | Tailwind |
-| --- | ---- | -------- |
-| 3.0.0 | 2.0.0-beta.65 | 2.0.0 |
+Gen Dummy is a simple Vue.js application that allows you to generate dummy data in JSON format. With Gen Dummy, you can quickly create placeholder data for testing or development purposes.
 
-## Features
-- Vue 3
-- Vite
-- Tailwind CSS
-  
-## Requirements
-- Node.js
-- NPM
-- Git
-- A code editor
-- A browser
-- A terminal
-- A brain
-  
-  
-## Getting Started
-### Use Clone
-1. Clone this repository 
-2. Run `npm install`
-3. Run `npm run dev`
-4. Open `http://localhost:3000` in your browser
-5. Start coding!
+## Installation
 
-### Use Template
-1. Click the `Use this template` button
-2. Create a new repository
-3. Clone the new repository
-4. Run `npm install`
-5. Run `npm run dev`
-6. Open `http://localhost:3000` in your browser
-7. Start coding!
-8. When you are ready to deploy, run `npm run build` and the build files will be in the `dist` directory
-<!-- setup for name project int package.json -->
-## Setup
-1. Change the name of the project in `package.json`
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/gen-dummy.git
+   ```
 
-## Building for Production
-1. Run `npm run build`
-2. The build files will be in the `dist` directory
-3. You can serve the files with `npm run serve`
+2. Navigate to the project directory:
+   ```bash
+   cd gen-dummy
+   ```
 
-<!-- make table for version -->
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+Run the Vue.js application in development mode:
+```bash
+npm run serve
+```
+
+Access the application through your browser at [http://localhost:8080](http://localhost:8080).
+
+## Generating Dummy Data
+
+1. Open the application in your browser.
+
+2. Click the "Generate Dummy Data" button to create dummy data.
+
+3. The resulting dummy data will be displayed in JSON format below the button.
+
+## Project Structure
+
+- `src/`: Main directory for Vue.js source code.
+  - `components/`: Vue.js components.
+  - `App.vue`: Main application component.
+  - `main.js`: Main entry file.
+
+- `public/`: Static files included directly in the project.
+
+- `README.md`: Project documentation.
+
+## Notes
+
+- Ensure that Node.js and npm are installed on your machine before running the project.
+
+- Optional: If you're using Axios, make sure to install it with the command `npm install axios`.
+
+## License
+
+Specify the type of license here. For example, MIT License.
+
+---
+**Happy Coding!**
