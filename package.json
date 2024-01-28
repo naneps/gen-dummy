@@ -1,5 +1,5 @@
 {
-  "name": "vvt-starter",
+  "name": "gen-dummy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "pinia": "^2.1.7",
     "vue": "^3.4.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
-    "postcss": "^8.4.21",
     "autoprefixer": "^10.4.17",
+    "daisyui": "^4.6.0",
+    "dotenv": "^16.4.1",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.12"
-
   }
 }
